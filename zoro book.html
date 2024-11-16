@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Book Store - Home</title>
+    <style>
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #50e3c2;
+    color: white;
+    padding: 3em 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.btn {
+    background-color: #e94e77;
+    color: white;
+    padding: 0.7em 1.5em;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #d43f6e;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2em;
+}
+
+.product-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 1em;
+    padding: 1em;
+    width: 200px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product-card h3 {
+    color: #333;
+}
+
+.price {
+    color: #e94e77;
+    font-weight: bold;
+    margin: 0.5em 0;
+}
+
+.product-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.product-detail img {
+    width: 300px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+    </style>
+    <header>
+        <div class="logo">Zoro's Books</div>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Books</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Discover Your Next Favorite Book</h1>
+            <p>Explore our collection of books across various genres.</p>
+            <a href="products.html" class="btn">Shop Now</a>
+        </section>
+    </main>
+    
+
+    <main>
+        <h2>Our Collection</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="cant hurt me.jpg">
+                <h3>Can't Hurt Me</h3>
+                <p>David Goggins</p>
+                <p>₹999</p>
+                <a href="book1.html" class="btn">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="soltitude.jpg">
+                <h3>One Hudred Year Soltitude</h3>
+                <p>Gabriel García Márquez</p>
+                <p>₹799</p>
+                <a href="book2.html" class="btn">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="1984.jpg">
+                <h3>1 9 8 4</h3>
+                <p>George Orwell</p>
+                <p>₹599</p>
+                <a href="book3.html" class="btn">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="finn.jpg">
+                <h3>The Adventure Of Huckleberry Finn</h3>
+                <p>Mark Twain</p>
+                <p>₹790</p>
+                <a href="book4.html" class="btn">Buy Now</a>
+            </div>
+        </div>
+    </main>
+    
+        <main>
+            <div class="product-detail">
+                <img src="gita.jpg">
+                <h2>Bhagavad Gita</h2>
+                <p>Hindu Scripture</p>
+                <p>Price: ₹1600</p>
+                <p>The Bhagavad Gita, Sanskrit: भगवद्गीता, often referred to as the Gita is a Hindu scripture, dated to the second or first century
+                    which forms part of the Epic Mahabharata. It is a synthesis of various strands of Indian religious thought,
+                     including the Vedic concept of dharma (duty, rightful action);
+                     The Gita posits the existence of an individual self (jivatman) and the higher Godself (Krishna, Atman/Brahman) in every being
+                      the Krishna-Arjuna dialogue has been interpreted as a metaphor for an everlasting dialogue between the two</p>
+                <a href="book5.html"class="btn">Buy Now</a>
+            </div>
+        </main>
+            <main>
+                <h2>Contact Us</h2>
+                <p>Email: support@bookstore.com</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>For inquiries, please reach out to us!</p>
+            </main>
+        
+            <footer>
+                <p>&copy; 2024 Book Store. All Rights Reserved.</p>
+            </footer>
+        </body>
+    </head>
